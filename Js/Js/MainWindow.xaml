@@ -1,0 +1,15 @@
+﻿<Window x:Name="FrmMenu" x:Class="Js.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Js Wash Car" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="117*"/>
+            <ColumnDefinition Width="400*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="" HorizontalAlignment="Left" Margin="45.104,52,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="BtnCadastrar" Content="Cadastrar" HorizontalAlignment="Left" Margin="26,91,0,0" VerticalAlignment="Top" Width="91" Height="38" Click="Button_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="BtnRelatorio" Content="Relatórios" HorizontalAlignment="Left" Margin="26,204,0,0" VerticalAlignment="Top" Width="91" Height="36" Grid.ColumnSpan="2" Click="BtnRelatorio_Click"/>
+
+    </Grid>
+</Window>

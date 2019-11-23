@@ -1,0 +1,20 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Js"
+        xmlns:Dao="clr-namespace:Js.Dao" x:Class="Js.Relatorios"
+        mc:Ignorable="d"
+        Title="Relatorios" Height="450" Width="800">
+
+    <Grid>
+        <TextBox x:Name="txtTexto" HorizontalAlignment="Left" Height="124" Margin="44,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="704" AcceptsReturn="True"/>
+        <Button x:Name="btnSalvar" Content="Salvar arquivo" HorizontalAlignment="Left" Margin="107,321,0,0" VerticalAlignment="Top" Width="75" Click="btnSalvar_Click"/>
+        <Button x:Name="btnAbrir" Content="Abrir arquivo" HorizontalAlignment="Left" Margin="223,321,0,0" VerticalAlignment="Top" Width="75" Click="btnAbrir_Click"/>
+        <Button x:Name="btnExcluir" Content="Excluir item selecionado" HorizontalAlignment="Left" Margin="468,313,0,0" VerticalAlignment="Top" Width="180" Click="btnExcluir_Click"/>
+        <DataGrid x:Name="Dg" Height="100" Margin="54,22,58,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnEdit" Content="Alterar" HorizontalAlignment="Left" Margin="683,315,0,0" VerticalAlignment="Top" Width="75" Click="btnEdit_Click"/>
+    </Grid>
+
+</Window>
